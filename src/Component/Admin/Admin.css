@@ -1,0 +1,32 @@
+.admin-dash{
+    display: flex;
+}
+
+.admin-menu{
+    flex:1;
+    background-color:blue;
+    height: 100vh;
+    
+}
+.dash-items{
+   display: flex;
+   flex-direction:column;
+}
+.admin-menu a{
+    text-decoration: none;
+    color:black;
+}
+.admin-menu li{
+    list-style-type:none;
+}
+
+.manageProduct{
+    flex:4;
+    background-color:white;
+}
+
+@media only screen and (max-width: 600px) {
+    .admin-dash {
+      flex-direction: column;
+    }
+  }
